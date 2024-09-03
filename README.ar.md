@@ -46,7 +46,3 @@
 * [للغة التركية](https://salif.github.io/colemak-tr/)
 * [للغة الاسبرانتو](https://salif.github.io/colemak-eo/)
 * [للأبجدية الاسبرانتو الشافية](https://salif.github.io/shaw-eo/)
-
----
-
-تحتوي هذه الصفحة على نص مترجم تلقائيًا

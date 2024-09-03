@@ -46,7 +46,3 @@ Si encuentra un error o desea sugerir una mejora, no dude en compartirlo en [Cod
 * [Para idioma turco](https://salif.github.io/colemak-tr/)
 * [Para el idioma esperanto](https://salif.github.io/colemak-eo/)
 * [Para el alfabeto esperanto shaviano](https://salif.github.io/shaw-eo/)
-
----
-
-Esta página contiene texto traducido automáticamente

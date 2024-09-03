@@ -46,7 +46,3 @@
 * [对于土耳其语](https://salif.github.io/colemak-tr/)
 * [对于世界语](https://salif.github.io/colemak-eo/)
 * [对于世界语沙维亚字母表](https://salif.github.io/shaw-eo/)
-
----
-
-此页面包含自动翻译的文本

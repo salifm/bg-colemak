@@ -46,7 +46,3 @@
 * [Для турецкого языка](https://salif.github.io/colemak-tr/)
 * [Для языка эсперанто](https://salif.github.io/colemak-eo/)
 * [Для эсперанто-шавианского алфавита](https://salif.github.io/shaw-eo/)
-
----
-
-Эта страница содержит автоматически переведенный текст

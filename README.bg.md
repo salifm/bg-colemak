@@ -44,9 +44,5 @@
 ## Други клавиатурни подредби
 
 * [За турски език](https://salif.github.io/colemak-tr/)
-* [За езика есперанто](https://salif.github.io/colemak-eo/)
-* [За есперанто Шавианска азбука](https://salif.github.io/shaw-eo/)
-
----
-
-Тази страница съдържа автоматично преведен текст
+* [За есперанто](https://salif.github.io/colemak-eo/)
+* [За шавианската азбука](https://salif.github.io/shaw-eo/)
