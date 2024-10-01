@@ -7,9 +7,10 @@
     <meta name="robots" content="index, follow" />
 {% seo %}
     <style>:root {color-scheme: light dark;}</style>
-    <script async src="https://salif.github.io/globasa-xwexi-pages/assets/script.min.js?v=241001"></script>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
-    <link rel="stylesheet" href="https://salif.github.io/globasa-xwexi-pages/assets/custom.css?v=241001" />
+    {%- assign build_revision = site.github.build_revision %}
+    <script async src="https://salif.github.io/sgi/sgi.min.js?v={{ build_revision }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: build_revision | relative_url }}" />
+    <link rel="stylesheet" href="https://salif.github.io/sgi/sgi.min.css?v={{ build_revision }}" />
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -18,13 +19,11 @@
       {% if site.github.private != true and site.github.license %}
       {% assign theme = site.data.values[page.lang].theme | default: "Theme" %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        {{ site.data.values[page.lang].footer_os | default: "This site is open source" }} &#8226; <a
-        href="{% github_edit_link %}">{{ site.data.values[page.lang].footer_im | default: "Improve this page" }}</a>
+        <a href="{% github_edit_link %}">{{ site.data.values[page.lang].footer_im | default: "Improve this page" }}</a>
         &#8226; <select id="theme-switch" aria-label="Choose a theme">
           <option id="theme-switch-auto" value="theme-auto">{{ theme }}: Auto</option>
           <option id="theme-switch-light" value="theme-light">{{ theme }}: Light</option>
           <option id="theme-switch-dark" value="theme-dark">{{ theme }}: Dark</option>
-          <option id="theme-switch-rust" value="theme-rust">{{ theme }}: Rust</option>
           <option id="theme-switch-midnight" value="theme-midnight">{{ theme }}: Midnight</option>
           <option id="theme-switch-sc-auto" value="theme-sc-auto">{{ theme }}: SC Auto</option>
           <option id="theme-switch-sc-light" value="theme-sc-light">{{ theme }}: SC Light</option>
